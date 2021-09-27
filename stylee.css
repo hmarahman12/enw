@@ -1,0 +1,800 @@
+
+/**watch*****/
+.New-lifstyle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px ;
+}
+
+.YouMayLike {
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+.Like {
+    width: 250px;
+    height: 513px;
+    background: #fff;
+    box-shadow: 1px 5px 18px -5px;
+    border-radius: 3px;
+}
+
+.watch img {
+    width: 100px;
+}
+
+.watch-price span {
+    display: block;
+    transition: all ease .5s;
+}
+
+.watch-price b {
+    display: flex;
+}
+
+.watch-price h6 {
+    display: flex;
+    color: #a0a0a0;
+}
+
+
+.watch-price b span {
+    color: #989898;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.watch-price b span:hover{
+    cursor: auto;
+    color: #989898;
+}
+
+.watch-price h6 b {
+    color: #00baa3;
+    margin-left: 5px;
+    cursor: pointer;
+}
+ 
+.watch-price span:hover,.min-watch .watch:hover {
+    cursor: pointer;
+    color: #00baa3;
+}
+
+.min-watch {
+    display: flex;
+    align-items: center;
+}
+span.You {
+    display: flex;
+    padding: 15px 30px;
+}
+.lik-1 b {
+    border: 1px solid;
+}
+
+.lik-1 {
+    position: relative;
+}
+.lik-1::after,.lik-1::before {
+    content: "";
+    width: 145px;
+    border: 1px solid;
+    height: 1px;
+    background: #00baa3;
+    color: #ddd;
+    position: absolute;
+    text-decoration: underline;
+    margin-top: 38px;
+}
+.lik-1::before {
+    background: #ddd;
+    right: 0;
+    border: 1px solid #f9f9f9;
+}
+
+.sub-service {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-top: -50px;
+    background: #fff;
+    box-shadow: 5px 9px 15px -13px;
+}
+.service-icon {
+    display: flex;
+    padding: 5px 0;
+    color: #373737;
+}
+.service-icon i {
+    font-size: 50px;
+}
+
+.text {
+    margin-left: 15px;
+}
+
+.text h3 {
+    margin-bottom: 7px;
+}
+.text p {
+    color: #686868;
+}
+
+
+/***bussinece***/
+
+.bussinece {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mobile {
+    display: flex;
+    width: 430px;
+    height: 260px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.text-home ul {
+    display: grid;
+}
+.text-home {
+    width: 230px;
+}
+
+.text-home p {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.text-home ul li i {
+    margin-right: 5px;
+    font-size: 14px;
+    transition: all ease .5s;
+}
+
+.text-home ul li:hover i {
+    margin-left: 10px;
+}
+
+.text-home ul li:hover {
+    color: #00baa3;
+}
+
+.mobile img {
+    width: 170px;
+    height: 200px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.text-home ul li {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #242424;
+}
+/******womwn-fashion****/
+.new {
+    display: flex;
+    justify-content: space-between;
+}
+.womwn-fashion {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/banners/1-1.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    border: 1px solid #ddd;
+    width: 640px;
+    border-radius: 5px;
+}
+.collection {
+    padding: 150px 0 0 90px;
+    width: 250px;
+    height: 350px;
+}
+
+.collection p {
+    font-size: 35px;
+    font-weight: 800;
+}
+.collection h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.collection span {
+    color: #8e8e8e;
+    font-weight: 800;
+}
+
+.collection span b {
+    font-size: 18px;
+    font-weight: bolder;
+    color: tomato;
+}
+
+.shop span {
+    color: #3c3a3a;
+    border: 1px solid;
+    font-family: system-ui;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: all ease .5s;
+}
+
+.shop {
+    margin-top: 30px;
+}
+
+.shop span:hover {
+    background: #2f2e2e;
+    color: #ffffff;
+    border: 1px solid #272626;
+    border-radius: 3px !important;
+    cursor:pointer;
+}
+
+.cosmetic{
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/banners/1-2.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.cosmeti{
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/banners/1-4.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.cosmeti .best-seller p,.cosmeti .best-seller span,.cosmeti .best-seller .shpo span {
+    color: #fff;
+}
+.cosmetic,.cosmeti {
+    height: 209px;
+    width: 310px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.best-seller {
+    padding: 30px 40px;
+}
+
+.best-seller span {
+    font-weight: 800;
+    color: #313030;
+    font-size: 15px;
+}
+
+.best-seller p {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.best-seller h2 {
+    font-size: 33px;
+    color: #ff7a47;
+}
+.cosmeti .best-seller h2 {
+    font-size: 33px;
+    color: #07d892;
+}
+
+.best-seller .shop span {
+    border: none;
+    background: none;
+    position: relative;
+}
+.best-seller .shop span:hover{
+    color: rgb(37, 37, 37);
+}
+.cosmeti .best-seller .shop span:hover{
+    color: rgb(240, 239, 239);
+}
+.best-seller .shop span::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 92px;
+    border: 1px solid;
+    transform: scaleX(0);
+    transition: all  ease .5s;
+}
+.best-seller .shop span:hover::before{
+    transform: scaleX(1);
+    
+}
+
+
+.img{
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/banners/1-3.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 310px;
+    border-radius: 5px;
+}
+.img {
+    color: #fff;
+    text-align: center;
+}
+
+.img h1 {
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.persent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img h1 b {
+    display: block;
+    font-size: 70px;
+}
+
+.img h1 span {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -17px;
+}
+.img h2 {
+    margin-bottom: 10px;
+}
+
+.img span {
+    color: #b7b7b7f2;
+}
+
+.img .shop span {
+    color: #fff;
+}
+
+.img .shop span:hover {
+    background: #fff;
+    color: #403f3f;
+    border: 1px solid #fff;
+    font-weight: 600;
+}
+
+.oaio img {
+    width: 130px;
+}
+
+
+/****Clothing & Apparel********/
+
+.watch-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px 21px 47px 0;
+}
+.add_watchBox,.add_watchBox2 {
+    display: none;
+    transition: all ease .5s;
+}
+
+
+/***extra code****/
+
+.add_watchBox_2 {
+    display: block !important;
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clthing-apparel {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.apparel p {
+    font-size: 30px;
+}
+span.p {
+    color: #16cf57;
+}
+
+span.h3 {
+    color: #db163d;
+}
+.new-arrivals .shop span:hover {
+    background: none;
+    color: #d7183e;
+    border-color: #d5153b;
+}
+
+.new-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.min-watchh,.go{
+    width: 220px;
+}
+.min-watchh img,.go img{
+    width: 100%;
+}
+.gori {
+    position: relative;
+    width: 220px;
+}
+
+.min-watchh {
+    position: absolute;
+    top: 0;
+    transform: scaleY(0);
+    transition: all ease .5s;
+}
+.gori:hover .min-watchh,.gori:hover .go::before{
+    transform: scaleY(1);
+}
+
+
+.min-watchh i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all ease .5s;
+}
+.min-watchh i.far.fa-heart {
+    margin: 20px 12px;
+    font-size: 30px;
+    color: #403f3f;
+    border: 1px solid #656363;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.min-watchh i.fas.fa-balance-scale {
+    margin: 100px 10px;
+    font-size: 22px;
+    border: 1px solid #5d5c5c;
+    color: #383737;
+    border-radius: 50%;
+    padding: 10px 8px;
+}
+.min-watchh i:hover {
+    color: #00bab4 !important;
+    cursor: pointer;
+    border: 1px solid #00bab4 !important;
+}
+
+.go::before {
+    content: "QUICK VIEW";
+    position: absolute;
+    bottom: 4px;
+    left: 1px;
+    border-radius: 0 0 3px 3px;
+    width: 98px;
+    z-index: 999999;
+    transform: scaleX(0);
+    color: #fff;
+    transition: all ease .5s;
+    cursor: pointer;
+    background: #00baa3;
+    padding: 12px 61px;
+}
+
+.gori img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.discription {
+    width: 220px;
+    text-align: center;
+}
+.discription b {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+}
+.discription b h3 {
+    color: orange;
+}
+.discription b span {
+    color: #6d6d6d;
+    transition: all ease 0.5s;
+}
+.discription span:hover {
+    color: #03bba1;
+    cursor: pointer;
+}
+.watch {
+    transition: all ease .5s;
+    width: 220px;
+}
+
+.watch:hover .discription p{
+    transform: scaleX(0);
+    
+}
+.watch:hover .addtocart h3{
+    transform: scaleX(0);
+    
+}
+.discription p {
+    transition: all ease 0.5s;
+    font-size: 24px;
+    color: #555555;
+    text-decoration: line-through;
+    transition: all ease .5s;
+}
+.addtocart {
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.addtocart h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.addtocart h2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    padding: 8px 0;
+    color: #00baad;
+    transform: scaleX(0);
+    cursor: pointer !important;
+    transition: all ease 0.5s;
+}
+.watch:hover .addtocart h2{
+    transform: scaleX(1);
+}
+
+.addtocart h2::after {
+    content: "";
+    border: 1px solid #00baa3;
+    width: 150px;
+    position: absolute;
+    left: 35px;
+    bottom: 0;
+    transition: all ease .5s;
+    transform: scaleX(0);
+}
+.addtocart h2:hover::after{
+    transform: scaleX(1);
+    
+}
+.addtocart a:hover {
+    color: #1ad0c0;
+}
+
+
+.Top-weekly {
+    display: flex;
+    justify-content: space-between;
+}
+div#apparel {
+    margin: 53px 0 20px 0;
+}
+.new-image {
+    display: flex;
+    align-items: center;
+}
+.new-image .gori {
+    width: 217px;
+}
+div#apparel .new-button {
+    display: none;
+}
+.new-image .gori img {
+    width: 210px;
+    height: 250px;
+}
+.gori-2 {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 250px;
+    justify-content: space-between;
+}
+.new-image .gori img:hover,.gori-2 img:hover {
+    border-color: #03c5a5;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.gori-2 img {
+    height: 120px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.oaio img {
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.new-text {
+    display: flex;
+    font-size: 15px;
+    color: #444343;
+    width: 170px;
+    justify-content: space-between;
+}
+.new-text h3{
+    transition: all ease 0.5s;
+}
+.new-text h3:hover,div#FromOurBlog span:hover {
+    color: #00baa3;
+    cursor: pointer;
+}
+.new-text span {
+    color: #797777;
+}
+.all-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+}
+.all-img .icon i {
+    margin: 7px 0 0 0;
+    font-size: 15px;
+    color: #f59c17;
+}
+
+.icon {
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+}
+
+.oaio {
+    display: flex;
+}
+.all-img .icon::after {
+    content: "5 : 00";
+    background: #000;
+    color: #fff;
+    padding: 5px 8px;
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.all-img .icon:hover::after{
+    opacity: 1;
+}
+
+/*****online****/
+.online {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+/* #new-collection {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/categories/2-1.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 1px solid #ddd;
+    width: 420px;
+    border-radius: 5px;
+}
+#new-collection1 {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/categories/2-1.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 1px solid #ddd;
+    width: 420px;
+    border-radius: 5px;
+}
+#new-collection2 {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/categories/2-2.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 1px solid #ddd;
+    width: 420px;
+    border-radius: 5px;
+}
+#new-collection3 {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/categories/2-3.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    border: 1px solid #ddd;
+    width: 420px;
+    border-radius: 5px;
+} */
+.new-collection .best-seller,.new-collection .best-seller span,.new-collection .best-seller h2 {
+    color: #fff;
+}
+
+.new-collection .best-seller .shop span:hover{
+    color: #fff;
+}
+div#new-collection1 h2 {
+    color: #ff9900;
+}
+div#most {
+    margin-top: 65px;
+}
+.GET .img {
+    background: url(https://portotheme.com/html/wolmart/assets/images/demos/demo4/banners/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 1360px;
+}
+.new-buttonn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+.new-buttonn h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+.new-buttonn .best-seller .shop span {
+    color: #07b6b6;
+    border: none;
+    background: none;
+}
+.new-buttonn .best-seller .shop span::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 172px;
+    border: 1px solid;
+    transform: scaleX(0);
+    transition: all ease .5s;
+}
+.new-buttonn .best-seller .shop span:hover::before,.new-buttonn #best-seller-2 .shop span:hover::before {
+    transform: scaleX(1);
+}
+.new-buttonn #best-seller-2 .shop span {
+    color: #f4f5f5;
+    border: none;
+    background: none;
+    margin-top: 20px;
+}
+.GET {
+    margin-top: 50px;
+}
+.new-buttonn #best-seller-2 .shop span::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 92px;
+    border: 1px solid;
+    transform: scaleX(0);
+    transition: all ease .5s;
+}
+div#best-seller-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ddd;
+}
+div#best-seller-2 h2 {
+    color: #ff9347;
+    font-size: 50px;
+    font-weight: 900;
+}
+div#FromOurBlog .new-button {
+    margin: 0;
+    width: 150px;
+}
+div#FromOurBlog span {
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* .min-watch .shida:hover .ulta {
+    height: 350px !important;
+} */
+
+
