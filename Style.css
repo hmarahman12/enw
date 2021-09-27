@@ -820,6 +820,13 @@ footer span a:hover{
                 top: 70px;
             }
 
+            .slick-next {
+                right: 80px !important;
+            }
+            .slick-prev {
+                left: 80px !important;
+            }
+
 
 
             .all-img {
